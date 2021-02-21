@@ -3,7 +3,8 @@
 # This class validates if a VIN's "check code" is valid.
 #
 # It can also suggest a valid VIN,
-# including the valid "check code", only 17 chars and upper case chars.
+# The suggested VIN will include the valid "check code",
+# only 17 chars and all chars in upper case.
 class VinChecker
   def self.valid?(vin)
     return false if vin.nil?

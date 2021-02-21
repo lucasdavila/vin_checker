@@ -1,6 +1,6 @@
 # Vin Checker
 
-This project validate is a given VIN's "check code" is correct, in case the vin is correct it will try to decode the "make" and "model year" from it, in case it is incorrect it will try to suggest a valid VIN.
+Vin Checker allow to validate if a VIN's "check code" is correct, decode the "make" and "model year" from it, and suggest valid VIN code.
 
 ## dev env setup
 
