@@ -10,6 +10,10 @@ To setup the dev env, run `bundle install`
 
 To test the code, execute: `bundle exec rspec`
 
+## linter
+
+To lint the code, execute: `bundle exec rubocop -a`
+
 ## decode config
 
 There is a list of common "World manufacturer identifier" on `config/common_wmis.json`, you can add/remove items to it.
